@@ -1,0 +1,325 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">Jordan Sneakers<i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Jordan 1</a>
+        <a href="#" class="w3-bar-item w3-button">Jordan 3</a>
+        <a href="#" class="w3-bar-item w3-button">Jordan 4</a>
+        <a href="#" class="w3-bar-item w3-button">Jordan 6</a>
+        <a href="#" class="w3-bar-item w3-button">Jordan 11</a>
+        <a href="#" class="w3-bar-item w3-button">Jordan 12</a>
+      </div>
+    </div>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Release Dates</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+        <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://www.stadiumgoods.com/media/catalog/product/cache/1/base/1000x600/9df78eab33525d08d6e5fb8d27136e95/3/8/384664-023_5.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h6>Jordan 6 Retro Infrared</h6>
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://www.stadiumgoods.com/media/catalog/product/cache/1/base/1000x600/9df78eab33525d08d6e5fb8d27136e95/3/7/378037_003_1.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Jordan 11 Space Jams</h3>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://www.stadiumgoods.com/media/catalog/product/cache/1/base/1000x600/9df78eab33525d08d6e5fb8d27136e95/a/q/aq0818_148_1.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Jordan 1 Off White University Blue</h3>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://www.stadiumgoods.com/media/catalog/product/cache/1/base/1000x600/9df78eab33525d08d6e5fb8d27136e95/3/0/308497_110_3_1.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h6>Jordan 6 Retro Infrared</h6>
+    </div>
+  </div>
+  
+  
+  
+  
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">Air Jordans</h2>
+    <p class="w3-justify">Michael Jordan is the greatest ball player of all time, and his shoes remain iconic and relevant even after 30 years. From the Air Jordan 1 Chicago's to the Air Jordan 11 Concords, each shoe has a unique story behind it. Here at StockA, we are here to sell these authentic sneakers and tell the unique story of each shoe. StockA sells only the most classic shoes, and only 6 Air Jordan models are for sale, them being the Air Jordan 1, 3, 4, 6, 11 and 12s, as these shoes have been bestsellers for over 30 years and are unique to other Jordan models.  </p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>MJ at Game 5 of the NBA Finals in the Flu Games</p>
+        <img src="https://img.bleacherreport.net/img/images/photos/003/601/402/hi-res-884782b37ec25d692eb3f1c51e62bf1b_crop_exact.jpg?w=1200&h=1200&q=75" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>MJ's NBA debut wearing the AJ 1 Chicago's</p>
+        <img src="https://www.nba.com/bulls/sites/bulls/files/styles/story_main_photo/public/mj_30thanniversary.jpg?itok=8hTOGeSO" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>MJ in the Concords coming out of retirement 1995 playoffs</p>
+        <img src="https://air.jordan.com/wp-content/uploads/2018/11/GettyImages-1864218-1080x1080.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">Air Jordan Release Dates</h2>
+      
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://sneakernews.com/wp-content/uploads/2019/01/air-jordan-4-retro-white-black-bright-crimson-pale-citron-308497-116-1.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Air Jordan 4 Bright Crimson</b></p>
+            <p class="w3-opacity">March 2nd 2019</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Pre-Release</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://www.flightclub.com/media/catalog/product/cache/1/image/1600x1140/9df78eab33525d08d6e5fb8d27136e95/0/1/011651_01.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Air Jordan 4 Black Cement</b></p>
+            <p class="w3-opacity">March 11 2019</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Pre-Release</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="http://www.sneakerexclusive.com/wp-content/uploads/2016/02/air-jordan-11-bred-holiday-2019-release.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Air Jordan 11 Playoffs</b></p>
+            <p class="w3-opacity">December 12 2019</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Pre-Release</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">Featured Items</h2>
+    
+    <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://www.flightclub.com/media/catalog/product/cache/1/image/1600x1140/9df78eab33525d08d6e5fb8d27136e95/6/3/63611742941-air-jordan-1-high-retro-chicago-bulls-black-varsity-red-011062_1.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Air Jordan 1 Chicago Bulls</b></p>
+            <p class="w3-opacity">The first marketed Jordan shoe, and the most iconic</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Pre-Release</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://www.flightclub.com/media/catalog/product/cache/1/image/1600x1140/9df78eab33525d08d6e5fb8d27136e95/8/0/803976_01.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Air Jordan 4 Travis Scott</b></p>
+            <p class="w3-opacity">One of the top shoes of the year, collab between Travis Scott</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Pre-Release</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://www.flightclub.com/media/catalog/product/cache/1/image/1600x1140/9df78eab33525d08d6e5fb8d27136e95/8/0/806486_1.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Air Jordan 12 Retro CNY's</b></p>
+            <p class="w3-opacity">Released during 2019's Chinese New Year of the pig</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Pre-Release</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="w3-black" id="tour">
+     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -6px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://www.flightclub.com/media/catalog/product/cache/1/image/1600x1140/9df78eab33525d08d6e5fb8d27136e95/8/0/805040_01.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Air Jordan 6 Tinker Hatfield</b></p>
+            <p class="w3-opacity">This shoe is a tribute to Tinker Hatfield, designer of all Jordans.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Pre-Release</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://www.flightclub.com/media/catalog/product/cache/1/image/1600x1140/9df78eab33525d08d6e5fb8d27136e95/8/0/801781_01.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Air Jordan 1 Off white</b></p>
+            <p class="w3-opacity">The shoe with the 2 OG colorways, Bred and Chicago colorways.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Pre-Release</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://www.flightclub.com/media/catalog/product/cache/1/image/1600x1140/9df78eab33525d08d6e5fb8d27136e95/8/0/800564_1.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Air Jordan 1 Royal Blue</b></p>
+            <p class="w3-opacity">A fan favorite, the blue and black colorway on the Jordan 1s</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Pre-Release</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="w3-black" id="tour">
+     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -6px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://www.flightclub.com/media/catalog/product/cache/1/image/1600x1140/9df78eab33525d08d6e5fb8d27136e95/8/0/805882_2.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Air Jordan 11 Concords</b></p>
+            <p class="w3-opacity">The holy grail of sneaker culture, the Concord 11s</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Pre-Release</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://www.flightclub.com/media/catalog/product/cache/1/image/1600x1140/9df78eab33525d08d6e5fb8d27136e95/0/1/011779_1.jpg " alt="Paris" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Air Jordan 4 Toro Bravo</b></p>
+            <p class="w3-opacity">The shoe that has a unforgettable boldness, the Toro Bravos</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Pre-Release</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://www.flightclub.com/media/catalog/product/cache/1/image/1600x1140/9df78eab33525d08d6e5fb8d27136e95/0/1/012588_1.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Air Jordan 3 True Blues</b></p>
+            <p class="w3-opacity">One of the only expensive Jordan 3s, low heel support shoes</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Pre-Release</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+ </div>
+
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">&times;</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT US</h2>
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Hong Kong, Hong Kong<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="https://hips.hearstapps.com/esq.h-cdn.co/assets/15/20/1431348732-the-shot.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) 
+    modal.style.display = "none";
+  }
+}
+
+</script>
+
+</body>
+</html>
